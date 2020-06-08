@@ -1,13 +1,20 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Oauth</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id"
+    content="94711156577-ee8sohidt6loegr4a3a1afa67i5ah53r.apps.googleusercontent.com">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
+
 <body>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
   <app-root></app-root>
 </body>
+
 </html>
